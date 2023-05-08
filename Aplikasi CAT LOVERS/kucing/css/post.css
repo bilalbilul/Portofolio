@@ -1,0 +1,121 @@
+body{
+	padding: 0px;
+    padding-top: 0px;
+	margin: 0px;
+	padding-top: 15px;
+	background-image: url('../gambar/66.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: fixed;
+  	background-size: cover;
+	font: normal 10pt Verdana, Arial, Helvetica, sans-serif;
+	line-height: inherit;
+}
+
+.h1{
+  font: 20pt comic;
+  color:white;
+  margin-left: 10%;
+  padding-left: 10%
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#customers td, #customers th {
+	text-align: center;
+    border: 1px solid white;
+    padding: 5px;
+    font: 15pt comic;
+    color: white;
+}
+
+#customers tr:nth-child(even){background-color: black;}
+
+#customers tr:hover {background-color: #557989;}
+
+#customers th {
+    padding-top: 15px;
+    padding-bottom: 15qpx;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.button2{
+   margin-left: 35%;
+    padding-left: 35%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font: 15px comic;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 1s;
+}
+
+.button2{
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background-color: black;
+    padding: 10pt;
+    width: 730pt;
+    margin: auto;
+}
+.container1 {
+    background-color:  #f2f2f2;
+    padding: 10pt;
+    width: 730pt;
+    margin: auto;
+    height: 280pt;
+}
+
+.kanan {
+	font:13pt papyrus;
+    width: 30%;
+    float:left;
+ 	margin-left: 19%;
+    border: 0px solid red;
+
+}
+
+.kiri {
+	font:13pt papyrus;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    border: 0px solid red;
+
+}
+
+input{
+	margin: 10px;
+	font-size: 13pt;
+	padding: 10px;	
+	background: transparent;
+	color: black;
+	font-family: roboto;
+	border: none;
+}
+ 
+input:focus{
+	outline: none;
+}
+ 
+input:-webkit-input-placeholder{
+	color: white;
+}
+
